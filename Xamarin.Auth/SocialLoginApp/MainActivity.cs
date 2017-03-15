@@ -101,6 +101,12 @@ namespace SocialLoginApp
                     StoringDataIntoCache(userJson);
                 }
             };
+            
+           auth.Error += (sender, e) =>
+           {
+               // do error handling here.
+               System.Diagnostics.Debug.WriteLine("error: " + e.Message);
+           };
         }
         #endregion
 
