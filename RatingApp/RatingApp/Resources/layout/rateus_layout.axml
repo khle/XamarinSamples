@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/takeImageButtonSize"
+        android:id="@+id/imageView1"
+        android:adjustViewBounds="true" />
+    <Button
+        android:id="@+id/GetPictureButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/takeImage"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultText"
+        android:textAlignment="center"
+        android:layout_margin="15dp" />
+    <radialprogress.RadialProgressView
+        android:id="@+id/progressView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        progress_type="big"
+        hide_label="false"
+        progress_color="#ef6c00"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="2dp" />
+<!--<TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:id="@+id/resultValue"
+        android:textAlignment="center"
+        android:layout_margin="2dp" />-->
+</LinearLayout>

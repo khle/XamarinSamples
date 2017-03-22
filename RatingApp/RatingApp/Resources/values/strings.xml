@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RatingApp</string>
+    <string name="profile">PROFILE</string>
+    <string name="feed">FEED</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="settings">Rate Us!</string>
+    <string name="takeImage">Take Picure</string>
+    <string name="imageSubmit">Submit New Image</string>
+    <string name="rateKey">rateValue</string>
+    <string name="imageName">RatingApp_{0}.jpg</string>
+    <string name="loadText">Loading...</string>
+    <string name="imageFolderName">CameraAppDemo</string>
+    <string name="rateMessage">Thanks for rating us with score </string>
+    <string name="alertTitle">Confirmation to access Camera</string>
+    <string name="alertMessage">Are you sure to access camera for this App?</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="cancelled">Cancelled!</string>
+</resources>

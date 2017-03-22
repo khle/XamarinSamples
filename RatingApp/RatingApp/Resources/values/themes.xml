@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.RateApp"/>
+    <style name="Theme.RateApp" parent="Theme.AppCompat.NoActionBar">
+      <item name="colorPrimaryDark">#444153</item>
+        <item name="colorPrimary">#383547</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>
